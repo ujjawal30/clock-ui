@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="description" content="Neuphormism design-based Clock UI with dark-theme">
+  <meta name="keywords" content="clock, neuphormism, html, css, javascript">
+  <meta name="author" content="Ujjawal Gupta">
+  <meta name="theme-color" content="#17171c">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Clock</title>
+  <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+  <section class="clock container">
+    <div class="clock-container grid">
+      <div class="clock-content grid">
+        <div class="clock-circle">
+          <span class="clock-twelve"></span>
+          <span class="clock-three"></span>
+          <span class="clock-six"></span>
+          <span class="clock-nine"></span>
+          <div class="clock-rounder"></div>
+          <div class="clock-hour" id="clock-hour"></div>
+          <div class="clock-minute" id="clock-minute"></div>
+          <div class="clock-second" id="clock-second"></div>
+          <div class="clock-theme material-icons" id="theme-button" title="Switch Theme"></div>
+        </div>
+        <div>
+          <div class="clock-text">
+            <div class="text-hour" id="text-hour"></div>
+            <div class="text-divider">:</div>
+            <div class="text-minute" id="text-minute"></div>
+            <div class="text-ampm" id="text-ampm"></div>
+          </div>
+          <div class="clock-date">
+            <div class="date-weekday" id="date-weekday"></div>
+            <div class="date-day" id="date-day"></div>
+            <div class="date-month" id="date-month"></div>
+            <div class="date-year" id="date-year"></div>
+          </div>
+        </div>
+      </div>
+      <a href="http://github.com/ujjawal30" target="_blank" class="clock-logo">Ujjawal Gupta</a>
+    </div>
+  </section>
+  <script src="assets/script.js"></script>
+</body>
+</html>
