@@ -1,6 +1,6 @@
 const hour = document.getElementById("clock-hour"),
   minute = document.getElementById("clock-minute"),
-  second = document.getElementById("clock-second"), 
+  second = document.getElementById("clock-second"),
   textHour = document.getElementById("text-hour"),
   textMinute = document.getElementById("text-minute"),
   textAmPm = document.getElementById("text-ampm"),
